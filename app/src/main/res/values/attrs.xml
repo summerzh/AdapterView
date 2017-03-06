@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--商品规格流式布局-->
+    <declare-styleable name="GoodsSpecLayout">
+        <!--左右间距-->
+        <attr name="horSpacing" format="dimension"/>
+        <!--上下间距-->
+        <attr name="verSpacing" format="dimension"/>
+        <!--字体大小-->
+        <attr name="specTextSize" format="dimension"/>
+        <!--字体的颜色-->
+        <attr name="specTextColor" format="color"/>
+        <!--选中状态字体的颜色-->
+        <attr name="selectedSpecTextColor" format="color"/>
+        <!--pop字体大小-->
+        <attr name="popTextSize" format="dimension"/>
+        <!--pop字体的颜色-->
+        <attr name="popTextColor" format="color"/>
+        <!--各行中的个数-->
+        <attr name="maxRow" format="integer"/>
+        <!--默认的背景-->
+        <attr name="defaultBackground" format="reference"/>
+        <!--点击之后的背景-->
+        <attr name="selectedBackground" format="reference"/>
+        <!--弹出pop的背景-->
+        <attr name="popBackground" format="reference"/>
+    </declare-styleable>
+</resources>

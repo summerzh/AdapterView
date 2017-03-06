@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gyt.adapterview.MainActivity">
+
+    <com.gyt.adapterview.GoodsSpecLayout
+        android:id="@+id/goods_spec_layout"
+        app:horSpacing="15dp"
+        app:verSpacing="15dp"
+        app:specTextSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
